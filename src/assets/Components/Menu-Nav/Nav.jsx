@@ -1,4 +1,4 @@
-import style from "./Menu-Nav.module.css";
+import style from "./Nav.module.css"
 
 export default function  Nav(){
     return (
