@@ -1,12 +1,15 @@
-import { BrowserRouter } from "react-router-dom;"
-
+import { BrowserRouter } from "react-router-dom"
+import Nav from "./assets/Components/Menu-Nav/Menu-Nav"
 
 import './App.css'
 
 function App() {
   return (
     <>
-     
+      <BrowserRouter>
+        <Nav />
+      </BrowserRouter>
+
     </>
   )
 }
