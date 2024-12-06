@@ -1,13 +1,16 @@
 import style from "./Nav.module.css"
+import { Link, NavLink } from "react-router-dom"
 
-export default function  Nav(){
-    return (
-        <>
-         <ul className={style.menu}>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Posts List</a></li>
-         </ul>
-        </>
-      )
+export default function Nav() {
+  return (
+    <>
+      <nav>
+        <ul className={style.menu}>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/About">About Us</NavLink>
+          <NavLink to="/Footer">Posts</NavLink>
+        </ul>
+      </nav>
+    </>
+  );
 }
