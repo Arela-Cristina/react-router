@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import Nav from "./assets/Components/Menu-Nav/Menu-Nav"
+import Nav from "./assets/Components/Menu-Nav/Nav.jsx"
 
 import './App.css'
 
