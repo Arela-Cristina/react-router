@@ -8,7 +8,7 @@ export default function Nav() {
         <ul className={style.menu}>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/About">About Us</NavLink>
-          <NavLink to="/Footer">Posts</NavLink>
+          <NavLink to="/Posts">Posts</NavLink>
         </ul>
       </nav>
     </>
